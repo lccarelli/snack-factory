@@ -1,6 +1,6 @@
 import { useTranslations } from "next-intl";
 
-const ITEMS = ["backend", "mobile", "automation", "rescue"] as const;
+const ITEMS = ["backend", "performance", "mobile", "automation", "rescue"] as const;
 
 export function Services() {
   const t = useTranslations("services");

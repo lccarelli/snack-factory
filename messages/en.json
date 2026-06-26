@@ -22,12 +22,17 @@
   },
   "services": {
     "heading": "What we do",
-    "sub": "Four ways to bring us in. Pick by how much ownership you want us to take.",
+    "sub": "Five ways to bring us in. Pick by how much ownership you want us to take.",
     "menuEyebrow": "// the menu — pick your bite",
     "backend": {
       "tag": "Backend",
       "title": "Custom backend & APIs",
       "desc": "REST/reactive APIs, business logic and integrations. Kotlin/Spring WebFlux, PHP, Go. Auth (JWT), payments (Mercado Pago), webhooks, versioned migrations."
+    },
+    "performance": {
+      "tag": "Performance",
+      "title": "Performance & scalability",
+      "desc": "Performance audits, optimization and design for scale. We find the bottleneck, measure it and fix it — so your system handles growth without a rewrite."
     },
     "mobile": {
       "tag": "Mobile",
@@ -84,14 +89,14 @@
       "linkedinUrl": "https://www.linkedin.com/in/lccarelli/"
     },
     "partner": {
-      "name": "[Partner's name]",
-      "role": "[Role — to fill]",
-      "bio": "[Short bio — what they do, their strength, what they bring to the studio. To fill.]",
+      "name": "Nicolás Sarfati",
+      "role": "Software Architect · Performance",
+      "bio": "Architect specialized in performance: systems design, scalability and optimization. He makes sure what we build doesn't just work — it holds up in production and at scale.",
       "githubLabel": "GitHub",
-      "github": "[@username]",
+      "github": "",
       "githubUrl": "#",
       "linkedinLabel": "LinkedIn",
-      "linkedin": "[in/username]",
+      "linkedin": "",
       "linkedinUrl": "#"
     }
   },
