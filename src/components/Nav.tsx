@@ -16,6 +16,7 @@ export function Nav() {
       <nav className="nav-links">
         <a href="#services">{t("services")}</a>
         <a href="#how">{t("how")}</a>
+        <a href="#team">{t("team")}</a>
         <a href="#rates">{t("rates")}</a>
         <a href="#work">{t("work")}</a>
         <a href="#contact">{t("contact")}</a>

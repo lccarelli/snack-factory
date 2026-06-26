@@ -1,28 +1,28 @@
 {
   "meta": {
-    "title": "Laura Carelli — Staff Software Engineer · Tech Lead · Consultant | snack-factory",
-    "description": "Laura Carelli — Staff Software Engineer, Tech Lead y Consultora. Potenciada con IA. Backend, mobile y automatizaciones, de la planificación a producción. Independiente, remoto, USD."
+    "title": "snack-factory — estudio de software · backend, mobile y automatizaciones",
+    "description": "snack-factory — estudio de software de dos personas. Potenciados con IA. Backend, mobile y automatizaciones, de la planificación a producción. Remoto, USD."
   },
   "nav": {
     "services": "Servicios",
-    "how": "Cómo trabajo",
+    "how": "Cómo trabajamos",
+    "team": "Quiénes somos",
     "rates": "Tarifas",
     "work": "Proyectos",
     "contact": "Contacto",
     "book": "Reservar llamada"
   },
   "hero": {
-    "kicker": "Independiente · Remoto · Multi-cliente · Potenciada con IA",
-    "titlePrimary": "Staff Software Engineer",
-    "titleRest": "Tech Lead · Consultant",
-    "tagline": "Diseño, planifico y construyo software de producción — del esquema de datos a la entrega. Backend, mobile y automatizaciones, con la metodología de un equipo serio.",
+    "kicker": "Estudio de software · Remoto · Multi-cliente · Potenciados con IA",
+    "headline": "Construimos software de producción, en porciones bien hechas.",
+    "sub": "Backend, mobile y automatizaciones — de la planificación a producción, con la metodología de un equipo serio. Somos dos, y nos hacemos cargo.",
     "ctaServices": "Ver servicios",
     "ctaTalk": "Reservar una llamada",
     "whisper": "human after all"
   },
   "services": {
-    "heading": "Qué hago",
-    "sub": "Cuatro formas de sumarme. Elegís según cuánta responsabilidad querés que tome.",
+    "heading": "Qué hacemos",
+    "sub": "Cuatro formas de sumarnos. Elegís según cuánta responsabilidad querés que tomemos.",
     "menuEyebrow": "// el menú — elegí tu mordisco",
     "backend": {
       "tag": "Backend",
@@ -32,7 +32,7 @@
     "mobile": {
       "tag": "Mobile",
       "title": "Apps mobile en Flutter",
-      "desc": "Apps multiplataforma desde cero o sumándome a una existente. Publicadas en App Store y Google Play — no demos, productos reales en manos de usuarios."
+      "desc": "Apps multiplataforma desde cero o sumándonos a una existente. Publicadas en App Store y Google Play — no demos, productos reales en manos de usuarios."
     },
     "automation": {
       "tag": "Automatización",
@@ -42,55 +42,81 @@
     "rescue": {
       "tag": "Rescate",
       "title": "Rescate de proyectos",
-      "desc": "¿Código heredado que nadie entiende? Lo audito, lo documento, le agrego tests y lo estabilizo — para que deje de ser una caja negra y un riesgo. Incluye planificación de la implementación."
+      "desc": "¿Código heredado que nadie entiende? Lo auditamos, lo documentamos, le agregamos tests y lo estabilizamos — para que deje de ser una caja negra y un riesgo. Incluye planificación de la implementación."
     }
   },
   "how": {
-    "heading": "Cómo trabajo",
-    "sub": "Profesional donde importa — código, método, entrega. Sin formalismos vacíos.",
+    "heading": "Cómo trabajamos",
+    "sub": "Profesionales donde importa — código, método, entrega. Sin formalismos vacíos.",
     "plan": {
       "title": "Plan antes del código",
-      "desc": "Te muestro qué archivos voy a tocar y por qué, y espero tu OK. Sin sorpresas, sin scope creep."
+      "desc": "Te mostramos qué archivos vamos a tocar y por qué, y esperamos tu OK. Sin sorpresas, sin scope creep."
     },
     "tests": {
       "title": "Tests y controles de calidad",
-      "desc": "Tests unitarios en código nuevo, cobertura mínima objetivo, análisis estático (SonarQube). No entrego código con issues bloqueantes."
+      "desc": "Tests unitarios en código nuevo, cobertura mínima objetivo, análisis estático (SonarQube). No entregamos código con issues bloqueantes."
     },
     "docs": {
-      "title": "Documentación que me sobrevive",
-      "desc": "READMEs claros, endpoints documentados, modelos de datos y flujos. Tu equipo puede seguir sin mí."
+      "title": "Documentación que nos sobrevive",
+      "desc": "READMEs claros, endpoints documentados, modelos de datos y flujos. Tu equipo puede seguir sin nosotros."
     },
     "deliveries": {
       "title": "Entregas pactadas",
       "desc": "Acordamos alcance, fechas y cómo nos comunicamos desde el arranque. Siempre sabés en qué punto estamos."
     },
     "ai": {
-      "title": "Potenciada con IA, no reemplazada por IA",
-      "desc": "Trabajo con IA como parte real de mi flujo — multiplica mi velocidad y mi alcance, mientras el criterio de ingeniería, la revisión y la responsabilidad siguen siendo míos. Rendís más por hora, sin bajar la vara."
+      "title": "Potenciados con IA, no reemplazados por IA",
+      "desc": "Trabajamos con IA como parte real de nuestro flujo — multiplica velocidad y alcance, mientras el criterio de ingeniería, la revisión y la responsabilidad siguen siendo nuestros. Rendís más por hora, sin bajar la vara."
+    }
+  },
+  "team": {
+    "heading": "Quiénes somos",
+    "sub": "Dos personas, un estudio. Nos repartimos el trabajo para que tengas una sola interlocución y cero huecos.",
+    "laura": {
+      "name": "Laura Carelli",
+      "role": "Staff Software Engineer · Tech Lead",
+      "bio": "Full-stack y arquitectura: backend reactivo, mobile y automatizaciones. Disciplina de equipo serio — plan antes del código, tests, docs y entregas pactadas.",
+      "githubLabel": "GitHub",
+      "github": "@lccarelli",
+      "githubUrl": "https://github.com/lccarelli",
+      "linkedinLabel": "LinkedIn",
+      "linkedin": "in/lccarelli",
+      "linkedinUrl": "https://www.linkedin.com/in/lccarelli/"
+    },
+    "partner": {
+      "name": "[Nombre del socio]",
+      "role": "[Rol — completar]",
+      "bio": "[Breve bio del socio — qué hace, su fuerte, qué aporta al estudio. Completar.]",
+      "githubLabel": "GitHub",
+      "github": "[@usuario]",
+      "githubUrl": "#",
+      "linkedinLabel": "LinkedIn",
+      "linkedin": "[in/usuario]",
+      "linkedinUrl": "#"
     }
   },
   "rates": {
     "heading": "Tarifas",
-    "sub": "Por hora, en USD. La tarifa escala con la responsabilidad: cuanto más me hago cargo, más alto dentro del rango.",
+    "sub": "Por hora, en USD. La tarifa del estudio escala con la responsabilidad: cuanto más nos hacemos cargo, más alto dentro del rango.",
     "perHour": "/h",
     "flag": "Más valor",
     "dev": {
       "title": "Desarrollo",
       "price": "USD 40",
       "role": "Ejecución",
-      "desc": "Traés una spec o diseño definido. Lo implemento bien — limpio, testeado, documentado."
+      "desc": "Traés una spec o diseño definido. Lo implementamos bien — limpio, testeado, documentado."
     },
     "eng": {
       "title": "Ingeniería + diseño",
       "price": "USD 50",
       "role": "Responsabilidad compartida",
-      "desc": "Tomo las decisiones técnicas de una feature — arquitectura, modelo de datos, trade-offs — y la construyo."
+      "desc": "Tomamos las decisiones técnicas de una feature — arquitectura, modelo de datos, trade-offs — y la construimos."
     },
     "lead": {
       "title": "Lead + implementación",
       "price": "USD 65",
       "role": "Responsabilidad total",
-      "desc": "Planifico la implementación, me hago cargo de la arquitectura y la organización del proyecto, y lo entrego de punta a punta."
+      "desc": "Planificamos la implementación, nos hacemos cargo de la arquitectura y la organización del proyecto, y lo entregamos de punta a punta."
     },
     "note": "Disponible por hora, en bloques mensuales (ej. 20/40 h) o por entregable. Compromiso mínimo y descuentos por bloque a consultar."
   },
@@ -100,13 +126,13 @@
     "ashvattha": {
       "title": "Ashvattha Yoga",
       "badge": "Publicada en App Store",
-      "desc": "App para estudio de yoga publicada en iOS y Android. Producto independiente construido de punta a punta: backend reactivo Kotlin/Spring, app Flutter, pagos, listas de espera, contabilidad. De la idea a las tiendas.",
+      "desc": "App para estudio de yoga publicada en iOS y Android. Producto propio del estudio, construido de punta a punta: backend reactivo Kotlin/Spring, app Flutter, pagos, listas de espera, contabilidad. De la idea a las tiendas.",
       "link": "App Store ↗"
     },
     "planning": {
       "title": "Planificación y organización de proyectos",
       "badge": "Metodología",
-      "desc": "Un proyecto completo desglosado en tareas planificadas y organizadas — la capa de planificación detrás del desarrollo. Evidencia de que no solo programo: estructuro el trabajo antes de arrancar.",
+      "desc": "Un proyecto completo desglosado en tareas planificadas y organizadas — la capa de planificación detrás del desarrollo. No solo programamos: estructuramos el trabajo antes de arrancar.",
       "link": "GitHub ↗"
     }
   },
@@ -115,7 +141,7 @@
   },
   "contact": {
     "heading": "Hablemos",
-    "sub": "Contame qué estás construyendo. La primera charla va por mi cuenta — vemos si encajo.",
+    "sub": "Contanos qué estás construyendo. La primera charla va por nuestra cuenta — vemos si encajamos.",
     "emailLabel": "Email",
     "linkedinLabel": "LinkedIn",
     "githubLabel": "GitHub",

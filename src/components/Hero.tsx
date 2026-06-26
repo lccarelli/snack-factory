@@ -5,12 +5,8 @@ export function Hero() {
   return (
     <section className="hero" id="top">
       <p className="hero-kicker">{t("kicker")}</p>
-      <h1 className="hero-name">Laura Carelli</h1>
-      <p className="hero-title">
-        <span className="t-primary">{t("titlePrimary")}</span>
-        <span className="t-rest">{t("titleRest")}</span>
-      </p>
-      <p className="hero-tagline">{t("tagline")}</p>
+      <h1 className="hero-name hero-headline">{t("headline")}</h1>
+      <p className="hero-tagline">{t("sub")}</p>
       <div className="hero-cta">
         <a href="#services" className="btn btn-primary">
           {t("ctaServices")}

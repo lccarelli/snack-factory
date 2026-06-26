@@ -5,7 +5,7 @@ export function Work() {
   return (
     <section className="section section-alt" id="work">
       <div className="section-head">
-        <span className="section-num">04</span>
+        <span className="section-num">05</span>
         <h2>{t("heading")}</h2>
         <p className="section-sub">{t("sub")}</p>
       </div>

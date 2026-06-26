@@ -23,7 +23,7 @@ export function Stack() {
   return (
     <section className="section" id="stack">
       <div className="section-head">
-        <span className="section-num">05</span>
+        <span className="section-num">06</span>
         <h2>{t("heading")}</h2>
       </div>
       <ul className="stack-list">

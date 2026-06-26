@@ -1,28 +1,28 @@
 {
   "meta": {
-    "title": "Laura Carelli — Staff Software Engineer · Tech Lead · Consultant | snack-factory",
-    "description": "Laura Carelli — Staff Software Engineer, Tech Lead & Consultant. AI-augmented. Backend, mobile and automation, from planning to production. Independent, remote, USD."
+    "title": "snack-factory — software studio · backend, mobile & automation",
+    "description": "snack-factory — a two-person software studio. AI-augmented. Backend, mobile and automation, from planning to production. Remote, USD."
   },
   "nav": {
     "services": "Services",
-    "how": "How I work",
+    "how": "How we work",
+    "team": "Who we are",
     "rates": "Rates",
     "work": "Work",
     "contact": "Contact",
     "book": "Book a call"
   },
   "hero": {
-    "kicker": "Independent · Remote · Multi-client · AI-augmented",
-    "titlePrimary": "Staff Software Engineer",
-    "titleRest": "Tech Lead · Consultant",
-    "tagline": "I design, plan and build production software — from the data schema to delivery. Backend, mobile and automation, with the methodology of a serious team.",
+    "kicker": "Software studio · Remote · Multi-client · AI-augmented",
+    "headline": "We build production software, in small, well-made bites.",
+    "sub": "Backend, mobile and automation — from planning to production, with the methodology of a serious team. We're two, and we own it.",
     "ctaServices": "See services",
     "ctaTalk": "Book a call",
     "whisper": "human after all"
   },
   "services": {
-    "heading": "What I do",
-    "sub": "Four ways to bring me in. Pick by how much ownership you want me to take.",
+    "heading": "What we do",
+    "sub": "Four ways to bring us in. Pick by how much ownership you want us to take.",
     "menuEyebrow": "// the menu — pick your bite",
     "backend": {
       "tag": "Backend",
@@ -42,23 +42,23 @@
     "rescue": {
       "tag": "Rescue",
       "title": "Project rescue",
-      "desc": "Inherited code nobody understands? I audit it, document it, add tests and stabilize it — so it stops being a black box and a risk. Includes implementation planning."
+      "desc": "Inherited code nobody understands? We audit it, document it, add tests and stabilize it — so it stops being a black box and a risk. Includes implementation planning."
     }
   },
   "how": {
-    "heading": "How I work",
+    "heading": "How we work",
     "sub": "Professional where it counts — code, method, delivery. No empty formalities.",
     "plan": {
       "title": "Plan before code",
-      "desc": "I show you the files I'll touch and why, and wait for your OK. No surprises, no scope creep."
+      "desc": "We show you the files we'll touch and why, and wait for your OK. No surprises, no scope creep."
     },
     "tests": {
       "title": "Tests & quality gates",
-      "desc": "Unit tests on new code, minimum coverage targets, static analysis (SonarQube). I don't hand over code with blocking issues."
+      "desc": "Unit tests on new code, minimum coverage targets, static analysis (SonarQube). We don't hand over code with blocking issues."
     },
     "docs": {
-      "title": "Documentation that survives me",
-      "desc": "Clear READMEs, documented endpoints, data models and flows. Your team can keep going without me."
+      "title": "Documentation that survives us",
+      "desc": "Clear READMEs, documented endpoints, data models and flows. Your team can keep going without us."
     },
     "deliveries": {
       "title": "Agreed deliveries",
@@ -66,31 +66,57 @@
     },
     "ai": {
       "title": "AI-augmented, not AI-replaced",
-      "desc": "I work with AI as part of my real workflow — it multiplies my speed and coverage, while engineering judgment, review and accountability stay mine. You get more done per hour, without lowering the bar."
+      "desc": "We work with AI as part of our real workflow — it multiplies speed and coverage, while engineering judgment, review and accountability stay ours. You get more done per hour, without lowering the bar."
+    }
+  },
+  "team": {
+    "heading": "Who we are",
+    "sub": "Two people, one studio. We split the work so you get a single point of contact and zero gaps.",
+    "laura": {
+      "name": "Laura Carelli",
+      "role": "Staff Software Engineer · Tech Lead",
+      "bio": "Full-stack and architecture: reactive backend, mobile and automation. Serious-team discipline — plan before code, tests, docs and agreed deliveries.",
+      "githubLabel": "GitHub",
+      "github": "@lccarelli",
+      "githubUrl": "https://github.com/lccarelli",
+      "linkedinLabel": "LinkedIn",
+      "linkedin": "in/lccarelli",
+      "linkedinUrl": "https://www.linkedin.com/in/lccarelli/"
+    },
+    "partner": {
+      "name": "[Partner's name]",
+      "role": "[Role — to fill]",
+      "bio": "[Short bio — what they do, their strength, what they bring to the studio. To fill.]",
+      "githubLabel": "GitHub",
+      "github": "[@username]",
+      "githubUrl": "#",
+      "linkedinLabel": "LinkedIn",
+      "linkedin": "[in/username]",
+      "linkedinUrl": "#"
     }
   },
   "rates": {
     "heading": "Rates",
-    "sub": "Hourly, in USD. The rate scales with responsibility: the more I own, the higher within the range.",
+    "sub": "Hourly, in USD. The studio rate scales with responsibility: the more we own, the higher within the range.",
     "perHour": "/h",
     "flag": "Most value",
     "dev": {
       "title": "Development",
       "price": "USD 40",
       "role": "Execution",
-      "desc": "You bring a defined spec or design. I implement it well — clean, tested, documented."
+      "desc": "You bring a defined spec or design. We implement it well — clean, tested, documented."
     },
     "eng": {
       "title": "Engineering + design",
       "price": "USD 50",
       "role": "Shared ownership",
-      "desc": "I make the technical decisions for a feature — architecture, data model, trade-offs — and build it."
+      "desc": "We make the technical decisions for a feature — architecture, data model, trade-offs — and build it."
     },
     "lead": {
       "title": "Lead + implementation",
       "price": "USD 65",
       "role": "End-to-end ownership",
-      "desc": "I plan the implementation, own the architecture and project organization, and deliver it end to end."
+      "desc": "We plan the implementation, own the architecture and project organization, and deliver it end to end."
     },
     "note": "Available by the hour, in monthly blocks (e.g. 20/40 h) or per deliverable. Minimum engagement and block discounts on request."
   },
@@ -100,13 +126,13 @@
     "ashvattha": {
       "title": "Ashvattha Yoga",
       "badge": "Live on the App Store",
-      "desc": "Yoga studio app published on iOS and Android. Independent product built end to end: reactive Kotlin/Spring backend, Flutter app, payments, waitlists, accounting. From idea to the stores.",
+      "desc": "Yoga studio app published on iOS and Android. Our own product, built end to end: reactive Kotlin/Spring backend, Flutter app, payments, waitlists, accounting. From idea to the stores.",
       "link": "App Store ↗"
     },
     "planning": {
       "title": "Project planning & organization",
       "badge": "Method",
-      "desc": "A full project broken down into planned, organized tasks — the planning layer behind the build. Evidence that I don't just code: I structure the work before it starts.",
+      "desc": "A full project broken down into planned, organized tasks — the planning layer behind the build. We don't just code: we structure the work before it starts.",
       "link": "GitHub ↗"
     }
   },
@@ -115,7 +141,7 @@
   },
   "contact": {
     "heading": "Let's talk",
-    "sub": "Tell me what you're building. First call is on me — we figure out if I'm a fit.",
+    "sub": "Tell us what you're building. First call is on us — we figure out if we're a fit.",
     "emailLabel": "Email",
     "linkedinLabel": "LinkedIn",
     "githubLabel": "GitHub",

@@ -20,7 +20,7 @@ export function Rates() {
   return (
     <section className="section" id="rates">
       <div className="section-head">
-        <span className="section-num">03</span>
+        <span className="section-num">04</span>
         <h2>{t("heading")}</h2>
         <p className="section-sub">{t("sub")}</p>
       </div>

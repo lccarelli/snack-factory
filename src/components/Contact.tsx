@@ -5,7 +5,7 @@ export function Contact() {
   return (
     <section className="section section-contact" id="contact">
       <div className="section-head">
-        <span className="section-num">06</span>
+        <span className="section-num">07</span>
         <h2>{t("heading")}</h2>
         <p className="section-sub">{t("sub")}</p>
       </div>

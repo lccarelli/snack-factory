@@ -6,8 +6,8 @@ export function Footer() {
   return (
     <footer className="footer">
       <p>
-        © {year} Laura Carelli ·{" "}
-        <span className="footer-brand">snack-factory</span> — {t("tagline")}
+        © {year} <span className="footer-brand">snack-factory</span> —{" "}
+        {t("tagline")}
       </p>
       <p className="footer-right" title="The owls are not what they seem.">
         {t("whisper")} <span aria-hidden="true">🛸</span>
