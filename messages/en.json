@@ -1,0 +1,128 @@
+{
+  "meta": {
+    "title": "Laura Carelli — Staff Software Engineer · Tech Lead · Consultant | snack-factory",
+    "description": "Laura Carelli — Staff Software Engineer, Tech Lead & Consultant. AI-augmented. Backend, mobile and automation, from planning to production. Independent, remote, USD."
+  },
+  "nav": {
+    "services": "Services",
+    "how": "How I work",
+    "rates": "Rates",
+    "work": "Work",
+    "contact": "Contact",
+    "book": "Book a call"
+  },
+  "hero": {
+    "kicker": "Independent · Remote · Multi-client · AI-augmented",
+    "titlePrimary": "Staff Software Engineer",
+    "titleRest": "Tech Lead · Consultant",
+    "tagline": "I design, plan and build production software — from the data schema to delivery. Backend, mobile and automation, with the methodology of a serious team.",
+    "ctaServices": "See services",
+    "ctaTalk": "Book a call",
+    "whisper": "human after all"
+  },
+  "services": {
+    "heading": "What I do",
+    "sub": "Four ways to bring me in. Pick by how much ownership you want me to take.",
+    "menuEyebrow": "// the menu — pick your bite",
+    "backend": {
+      "tag": "Backend",
+      "title": "Custom backend & APIs",
+      "desc": "REST/reactive APIs, business logic and integrations. Kotlin/Spring WebFlux, PHP, Go. Auth (JWT), payments (Mercado Pago), webhooks, versioned migrations."
+    },
+    "mobile": {
+      "tag": "Mobile",
+      "title": "Flutter mobile apps",
+      "desc": "Cross-platform apps from scratch or joining an existing codebase. Published on the App Store and Google Play — not demos, real products in users' hands."
+    },
+    "automation": {
+      "tag": "Automation",
+      "title": "Automation & integrations",
+      "desc": "Connect systems and remove manual work. n8n, webhooks, scheduled jobs, payment flows, observability. The plumbing that frees a team from doing things by hand."
+    },
+    "rescue": {
+      "tag": "Rescue",
+      "title": "Project rescue",
+      "desc": "Inherited code nobody understands? I audit it, document it, add tests and stabilize it — so it stops being a black box and a risk. Includes implementation planning."
+    }
+  },
+  "how": {
+    "heading": "How I work",
+    "sub": "Professional where it counts — code, method, delivery. No empty formalities.",
+    "plan": {
+      "title": "Plan before code",
+      "desc": "I show you the files I'll touch and why, and wait for your OK. No surprises, no scope creep."
+    },
+    "tests": {
+      "title": "Tests & quality gates",
+      "desc": "Unit tests on new code, minimum coverage targets, static analysis (SonarQube). I don't hand over code with blocking issues."
+    },
+    "docs": {
+      "title": "Documentation that survives me",
+      "desc": "Clear READMEs, documented endpoints, data models and flows. Your team can keep going without me."
+    },
+    "deliveries": {
+      "title": "Agreed deliveries",
+      "desc": "We agree scope, dates and how we communicate up front. You always know where things stand."
+    },
+    "ai": {
+      "title": "AI-augmented, not AI-replaced",
+      "desc": "I work with AI as part of my real workflow — it multiplies my speed and coverage, while engineering judgment, review and accountability stay mine. You get more done per hour, without lowering the bar."
+    }
+  },
+  "rates": {
+    "heading": "Rates",
+    "sub": "Hourly, in USD. The rate scales with responsibility: the more I own, the higher within the range.",
+    "perHour": "/h",
+    "flag": "Most value",
+    "dev": {
+      "title": "Development",
+      "price": "USD 40",
+      "role": "Execution",
+      "desc": "You bring a defined spec or design. I implement it well — clean, tested, documented."
+    },
+    "eng": {
+      "title": "Engineering + design",
+      "price": "USD 50",
+      "role": "Shared ownership",
+      "desc": "I make the technical decisions for a feature — architecture, data model, trade-offs — and build it."
+    },
+    "lead": {
+      "title": "Lead + implementation",
+      "price": "USD 65",
+      "role": "End-to-end ownership",
+      "desc": "I plan the implementation, own the architecture and project organization, and deliver it end to end."
+    },
+    "note": "Available by the hour, in monthly blocks (e.g. 20/40 h) or per deliverable. Minimum engagement and block discounts on request."
+  },
+  "work": {
+    "heading": "Selected work",
+    "sub": "Real products, shipped and maintained.",
+    "ashvattha": {
+      "title": "Ashvattha Yoga",
+      "badge": "Live on the App Store",
+      "desc": "Yoga studio app published on iOS and Android. Independent product built end to end: reactive Kotlin/Spring backend, Flutter app, payments, waitlists, accounting. From idea to the stores.",
+      "link": "App Store ↗"
+    },
+    "planning": {
+      "title": "Project planning & organization",
+      "badge": "Method",
+      "desc": "A full project broken down into planned, organized tasks — the planning layer behind the build. Evidence that I don't just code: I structure the work before it starts.",
+      "link": "GitHub ↗"
+    }
+  },
+  "stack": {
+    "heading": "Stack"
+  },
+  "contact": {
+    "heading": "Let's talk",
+    "sub": "Tell me what you're building. First call is on me — we figure out if I'm a fit.",
+    "emailLabel": "Email",
+    "linkedinLabel": "LinkedIn",
+    "githubLabel": "GitHub",
+    "bookCta": "Book a call"
+  },
+  "footer": {
+    "tagline": "small bites, production-grade",
+    "whisper": "i want to believe"
+  }
+}

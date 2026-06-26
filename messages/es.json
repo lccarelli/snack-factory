@@ -1,0 +1,128 @@
+{
+  "meta": {
+    "title": "Laura Carelli — Staff Software Engineer · Tech Lead · Consultant | snack-factory",
+    "description": "Laura Carelli — Staff Software Engineer, Tech Lead y Consultora. Potenciada con IA. Backend, mobile y automatizaciones, de la planificación a producción. Independiente, remoto, USD."
+  },
+  "nav": {
+    "services": "Servicios",
+    "how": "Cómo trabajo",
+    "rates": "Tarifas",
+    "work": "Proyectos",
+    "contact": "Contacto",
+    "book": "Reservar llamada"
+  },
+  "hero": {
+    "kicker": "Independiente · Remoto · Multi-cliente · Potenciada con IA",
+    "titlePrimary": "Staff Software Engineer",
+    "titleRest": "Tech Lead · Consultant",
+    "tagline": "Diseño, planifico y construyo software de producción — del esquema de datos a la entrega. Backend, mobile y automatizaciones, con la metodología de un equipo serio.",
+    "ctaServices": "Ver servicios",
+    "ctaTalk": "Reservar una llamada",
+    "whisper": "human after all"
+  },
+  "services": {
+    "heading": "Qué hago",
+    "sub": "Cuatro formas de sumarme. Elegís según cuánta responsabilidad querés que tome.",
+    "menuEyebrow": "// el menú — elegí tu mordisco",
+    "backend": {
+      "tag": "Backend",
+      "title": "Backend y APIs a medida",
+      "desc": "APIs REST/reactivas, lógica de negocio e integraciones. Kotlin/Spring WebFlux, PHP, Go. Auth (JWT), pagos (Mercado Pago), webhooks, migraciones versionadas."
+    },
+    "mobile": {
+      "tag": "Mobile",
+      "title": "Apps mobile en Flutter",
+      "desc": "Apps multiplataforma desde cero o sumándome a una existente. Publicadas en App Store y Google Play — no demos, productos reales en manos de usuarios."
+    },
+    "automation": {
+      "tag": "Automatización",
+      "title": "Automatizaciones e integraciones",
+      "desc": "Conectar sistemas y sacar trabajo manual. n8n, webhooks, jobs programados, flujos de pago, observabilidad. La cañería que libera a un equipo de hacer cosas a mano."
+    },
+    "rescue": {
+      "tag": "Rescate",
+      "title": "Rescate de proyectos",
+      "desc": "¿Código heredado que nadie entiende? Lo audito, lo documento, le agrego tests y lo estabilizo — para que deje de ser una caja negra y un riesgo. Incluye planificación de la implementación."
+    }
+  },
+  "how": {
+    "heading": "Cómo trabajo",
+    "sub": "Profesional donde importa — código, método, entrega. Sin formalismos vacíos.",
+    "plan": {
+      "title": "Plan antes del código",
+      "desc": "Te muestro qué archivos voy a tocar y por qué, y espero tu OK. Sin sorpresas, sin scope creep."
+    },
+    "tests": {
+      "title": "Tests y controles de calidad",
+      "desc": "Tests unitarios en código nuevo, cobertura mínima objetivo, análisis estático (SonarQube). No entrego código con issues bloqueantes."
+    },
+    "docs": {
+      "title": "Documentación que me sobrevive",
+      "desc": "READMEs claros, endpoints documentados, modelos de datos y flujos. Tu equipo puede seguir sin mí."
+    },
+    "deliveries": {
+      "title": "Entregas pactadas",
+      "desc": "Acordamos alcance, fechas y cómo nos comunicamos desde el arranque. Siempre sabés en qué punto estamos."
+    },
+    "ai": {
+      "title": "Potenciada con IA, no reemplazada por IA",
+      "desc": "Trabajo con IA como parte real de mi flujo — multiplica mi velocidad y mi alcance, mientras el criterio de ingeniería, la revisión y la responsabilidad siguen siendo míos. Rendís más por hora, sin bajar la vara."
+    }
+  },
+  "rates": {
+    "heading": "Tarifas",
+    "sub": "Por hora, en USD. La tarifa escala con la responsabilidad: cuanto más me hago cargo, más alto dentro del rango.",
+    "perHour": "/h",
+    "flag": "Más valor",
+    "dev": {
+      "title": "Desarrollo",
+      "price": "USD 40",
+      "role": "Ejecución",
+      "desc": "Traés una spec o diseño definido. Lo implemento bien — limpio, testeado, documentado."
+    },
+    "eng": {
+      "title": "Ingeniería + diseño",
+      "price": "USD 50",
+      "role": "Responsabilidad compartida",
+      "desc": "Tomo las decisiones técnicas de una feature — arquitectura, modelo de datos, trade-offs — y la construyo."
+    },
+    "lead": {
+      "title": "Lead + implementación",
+      "price": "USD 65",
+      "role": "Responsabilidad total",
+      "desc": "Planifico la implementación, me hago cargo de la arquitectura y la organización del proyecto, y lo entrego de punta a punta."
+    },
+    "note": "Disponible por hora, en bloques mensuales (ej. 20/40 h) o por entregable. Compromiso mínimo y descuentos por bloque a consultar."
+  },
+  "work": {
+    "heading": "Proyectos",
+    "sub": "Productos reales, publicados y mantenidos.",
+    "ashvattha": {
+      "title": "Ashvattha Yoga",
+      "badge": "Publicada en App Store",
+      "desc": "App para estudio de yoga publicada en iOS y Android. Producto independiente construido de punta a punta: backend reactivo Kotlin/Spring, app Flutter, pagos, listas de espera, contabilidad. De la idea a las tiendas.",
+      "link": "App Store ↗"
+    },
+    "planning": {
+      "title": "Planificación y organización de proyectos",
+      "badge": "Metodología",
+      "desc": "Un proyecto completo desglosado en tareas planificadas y organizadas — la capa de planificación detrás del desarrollo. Evidencia de que no solo programo: estructuro el trabajo antes de arrancar.",
+      "link": "GitHub ↗"
+    }
+  },
+  "stack": {
+    "heading": "Stack"
+  },
+  "contact": {
+    "heading": "Hablemos",
+    "sub": "Contame qué estás construyendo. La primera charla va por mi cuenta — vemos si encajo.",
+    "emailLabel": "Email",
+    "linkedinLabel": "LinkedIn",
+    "githubLabel": "GitHub",
+    "bookCta": "Reservar una llamada"
+  },
+  "footer": {
+    "tagline": "small bites, production-grade",
+    "whisper": "i want to believe"
+  }
+}
