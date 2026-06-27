@@ -13,12 +13,19 @@
     "book": "Book a call"
   },
   "hero": {
-    "kicker": "Software studio · Remote · Multi-client · AI-augmented",
-    "headline": "We build production software, in small, well-made bites.",
+    "kicker": "INDEPENDENT SOFTWARE STUDIO // TWO SENIOR ENGINEERS",
+    "headline": "We build production software, ",
+    "headlineEm": "in small, well-made bites.",
     "sub": "Backend, mobile and automation — from planning to production, with the methodology of a serious team. We're two, and we own it.",
     "ctaServices": "See services",
     "ctaTalk": "Book a call",
-    "whisper": "human after all"
+    "whisper": "human after all",
+    "terminal": {
+      "placeholder": "type 'help' for commands…",
+      "help": "commands: 'menu' (services), 'team' (us), 'rates', 'bake', 'clear'",
+      "notFound": "command not found",
+      "baked": "🍪 fresh batch — sprinkles on."
+    }
   },
   "services": {
     "heading": "What we do",

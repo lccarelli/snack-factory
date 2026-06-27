@@ -55,6 +55,7 @@ export default async function LocaleLayout({
     <html lang={locale} suppressHydrationWarning>
       <body
         data-theme="dark"
+        suppressHydrationWarning
         className={`${inter.variable} ${fraunces.variable} ${mono.variable}`}
       >
         <script dangerouslySetInnerHTML={{ __html: themeInit }} />

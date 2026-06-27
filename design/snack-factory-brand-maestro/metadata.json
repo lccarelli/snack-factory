@@ -1,0 +1,6 @@
+{
+  "name": "snack-factory Brand Maestro",
+  "description": "Visual identity system, brand guidelines, and AI-augmented brand prompt generator for snack-factory software studio.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

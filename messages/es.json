@@ -13,12 +13,19 @@
     "book": "Reservar llamada"
   },
   "hero": {
-    "kicker": "Estudio de software · Remoto · Multi-cliente · Potenciados con IA",
-    "headline": "Construimos software de producción, en porciones bien hechas.",
+    "kicker": "ESTUDIO DE SOFTWARE INDEPENDIENTE // DOS INGENIEROS SENIOR",
+    "headline": "Construimos software de producción, ",
+    "headlineEm": "en porciones bien hechas.",
     "sub": "Backend, mobile y automatizaciones — de la planificación a producción, con la metodología de un equipo serio. Somos dos, y nos hacemos cargo.",
     "ctaServices": "Ver servicios",
     "ctaTalk": "Reservar una llamada",
-    "whisper": "human after all"
+    "whisper": "human after all",
+    "terminal": {
+      "placeholder": "escribí 'help' para ver comandos…",
+      "help": "comandos: 'menu' (servicios), 'team' (nosotros), 'rates' (tarifas), 'bake', 'clear'",
+      "notFound": "comando no encontrado",
+      "baked": "🍪 tanda fresca — sprinkles puestos."
+    }
   },
   "services": {
     "heading": "Qué hacemos",
