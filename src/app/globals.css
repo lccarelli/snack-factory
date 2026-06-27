@@ -11,36 +11,43 @@
   --radius: 14px;
 }
 
-/* ---- DARK (default) → green ---- */
+/* ---- DARK (default) → toasted caramel ---- */
 body[data-theme="dark"] {
-  --bg:        #0b0d0c;
-  --bg-alt:    #101412;
-  --surface:   #141816;
-  --surface-2: #1a1f1c;
-  --line:      #283029;
-  --text:      #e9ece9;
-  --muted:     #9aa39c;
-  --muted-2:   #6b746d;
-  --accent:        #34d399;
-  --accent-strong: #10b981;
-  --accent-wash:   rgba(52, 211, 153, 0.10);
-  --on-accent:     #06241a;
+  --bg:        #170f0d;  /* deep roasted cocoa */
+  --bg-alt:    #1f1512;
+  --surface:   #241a16;
+  --surface-2: #2b201b;
+  --line:      #3a2c25;
+  --text:      #faf6f0;  /* warm vanilla dough */
+  --muted:     #b6a89c;
+  --muted-2:   #7e6f63;
+  --accent:        #e28743;  /* toasted cookie caramel */
+  --accent-strong: #d97706;  /* sweet amber gold */
+  --accent-wash:   rgba(226, 135, 67, 0.12);
+  --on-accent:     #170f0d;
+  /* candy chip sprinkles */
+  --chip-1: #f43f5e;  /* strawberry */
+  --chip-2: #10b981;  /* mint */
+  --chip-3: #06b6d4;  /* blueberry */
 }
 
-/* ---- LIGHT → violet ---- */
+/* ---- LIGHT → cookie brown ---- */
 body[data-theme="light"] {
-  --bg:        #f6f4fb;
-  --bg-alt:    #efeaf7;
+  --bg:        #fdfbf7;  /* warm baked vanilla */
+  --bg-alt:    #f3ede2;  /* butter biscuit */
   --surface:   #ffffff;
-  --surface-2: #f4eefc;
-  --line:      #e3dcef;
-  --text:      #1d1727;
-  --muted:     #6b6579;
-  --muted-2:   #948da3;
-  --accent:        #7c3aed;
-  --accent-strong: #6d28d9;
-  --accent-wash:   rgba(124, 58, 237, 0.08);
-  --on-accent:     #ffffff;
+  --surface-2: #faf3eb;
+  --line:      #e7dac9;
+  --text:      #1b120f;  /* deep cocoa */
+  --muted:     #6b5d52;
+  --muted-2:   #9b8c7e;
+  --accent:        #8b5a2b;  /* cookie brown */
+  --accent-strong: #54311c;  /* dark chocolate fudge */
+  --accent-wash:   rgba(139, 90, 43, 0.09);
+  --on-accent:     #fdfbf7;
+  --chip-1: #e11d48;  /* strawberry (deeper for light bg) */
+  --chip-2: #059669;  /* mint */
+  --chip-3: #0891b2;  /* blueberry */
 }
 
 * { box-sizing: border-box; }
@@ -69,6 +76,33 @@ a { color: inherit; text-decoration: none; }
   opacity: 0.9;
 }
 
+/* ---------- texture patterns (from the brand kit) ---------- */
+.scanlines { position: relative; }
+.scanlines::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+  background: linear-gradient(to bottom, transparent 50%, rgba(0, 0, 0, 0.06) 50%);
+  background-size: 100% 4px;
+  opacity: 0.5;
+  z-index: 0;
+}
+body[data-theme="dark"] .scanlines::before { background: linear-gradient(to bottom, transparent 50%, rgba(0, 0, 0, 0.22) 50%); background-size: 100% 4px; }
+.scanlines > * { position: relative; z-index: 1; }
+
+.pixel-grid-bg {
+  background-image:
+    linear-gradient(to right, color-mix(in srgb, var(--accent) 14%, transparent) 1px, transparent 1px),
+    linear-gradient(to bottom, color-mix(in srgb, var(--accent) 14%, transparent) 1px, transparent 1px);
+  background-size: 22px 22px;
+}
+
+.chip-scatter {
+  background-image: radial-gradient(circle, color-mix(in srgb, var(--accent) 35%, transparent) 2px, transparent 2px);
+  background-size: 18px 18px;
+}
+
 /* ---------- NAV ---------- */
 .nav {
   position: sticky;
@@ -92,7 +126,9 @@ a { color: inherit; text-decoration: none; }
 }
 .brand-mark { width: 26px; height: 26px; color: var(--accent); flex-shrink: 0; transition: transform 0.2s ease; }
 .brand:hover .brand-mark { transform: rotate(-6deg) scale(1.05); }
-.brand-chips rect { fill: var(--bg); }
+.brand-chips rect:nth-of-type(1) { fill: var(--chip-1); }
+.brand-chips rect:nth-of-type(2) { fill: var(--chip-2); }
+.brand-chips rect:nth-of-type(3) { fill: var(--chip-3); }
 .brand-word { color: var(--text); }
 .brand-dot { color: var(--accent); }
 .footer-brand { color: var(--accent); }
@@ -119,7 +155,18 @@ a { color: inherit; text-decoration: none; }
 .lang-active { color: var(--accent); font-weight: 500; }
 
 /* ---------- HERO ---------- */
-.hero { max-width: var(--maxw); margin: 0 auto; padding: clamp(4rem, 12vh, 8rem) clamp(1.2rem, 5vw, 3rem) clamp(3rem, 8vh, 5rem); position: relative; }
+.hero { max-width: var(--maxw); margin: 0 auto; padding: clamp(4rem, 12vh, 8rem) clamp(1.2rem, 5vw, 3rem) clamp(3rem, 8vh, 5rem); position: relative; isolation: isolate; }
+.hero::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  z-index: -1;
+  pointer-events: none;
+  background-image: radial-gradient(circle, color-mix(in srgb, var(--accent) 22%, transparent) 2px, transparent 2px);
+  background-size: 20px 20px;
+  -webkit-mask-image: linear-gradient(to bottom right, rgba(0,0,0,0.6), transparent 65%);
+          mask-image: linear-gradient(to bottom right, rgba(0,0,0,0.6), transparent 65%);
+}
 .hero-kicker { font-family: var(--font-mono), monospace; font-size: 0.82rem; letter-spacing: 0.04em; color: var(--muted); margin-bottom: 1.4rem; }
 .hero-name { font-family: var(--font-serif), serif; font-size: clamp(2.8rem, 8vw, 5rem); font-weight: 600; line-height: 1.02; letter-spacing: -0.01em; margin: 0; }
 .hero-headline { font-size: clamp(2.2rem, 6vw, 4rem); line-height: 1.05; max-width: 20ch; margin-top: 0.4rem; }
@@ -151,7 +198,7 @@ a { color: inherit; text-decoration: none; }
 .cards { display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 1.1rem; counter-reset: menu; }
 .card { position: relative; background: var(--surface); border: 1px solid var(--line); border-radius: var(--radius); padding: 1.6rem; counter-increment: menu; transition: border-color 0.25s, transform 0.25s; }
 .card:hover { border-color: var(--accent); transform: translateY(-3px); }
-.card::after { content: ""; position: absolute; top: 1.5rem; right: 1.4rem; width: 20px; height: 6px; background: radial-gradient(circle 3px at 3px 3px, var(--accent) 96%, transparent) 0 0 / 8px 6px repeat-x; opacity: 0.4; }
+.card-icon { width: 30px; height: 30px; color: var(--accent); display: block; margin-bottom: 0.9rem; }
 .card-tag { font-family: var(--font-mono), monospace; font-size: 0.72rem; text-transform: uppercase; letter-spacing: 0.08em; color: var(--accent); }
 .card-tag::before { content: counter(menu, decimal-leading-zero) " · "; color: var(--muted-2); }
 .card h3 { font-size: 1.2rem; font-weight: 600; margin: 0.5rem 0 0.7rem; }

@@ -3,10 +3,8 @@
     <rect width="64" height="64" rx="16" fill="#fff"/>
     <path d="M64 0 L40 0 L40 8 L48 8 L48 16 L56 16 L56 24 L64 24 Z" fill="#000"/>
   </mask>
-  <rect width="64" height="64" rx="16" fill="#34d399" mask="url(#bite)"/>
-  <g fill="#0b0d0c">
-    <rect x="14" y="36" width="8" height="8" rx="2"/>
-    <rect x="30" y="44" width="8" height="8" rx="2"/>
-    <rect x="20" y="22" width="8" height="8" rx="2"/>
-  </g>
+  <rect width="64" height="64" rx="16" fill="#e28743" mask="url(#bite)"/>
+  <rect x="14" y="36" width="8" height="8" rx="2" fill="#f43f5e"/>
+  <rect x="30" y="44" width="8" height="8" rx="2" fill="#10b981"/>
+  <rect x="20" y="22" width="8" height="8" rx="2" fill="#06b6d4"/>
 </svg>
