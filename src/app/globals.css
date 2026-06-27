@@ -269,6 +269,51 @@ body[data-theme="dark"] .scanlines::before { background: linear-gradient(to bott
 .snack-toast.show { transform: translate(-50%, 0); opacity: 1; }
 .snack-toast-mark { font-size: 1.2rem; }
 
+/* ---------- BRAND GUIDELINES PAGE ---------- */
+.bp { max-width: 920px; margin: 0 auto; padding: clamp(2rem, 6vw, 4rem) clamp(1.2rem, 5vw, 3rem) 4rem; }
+.bp-back { font-family: var(--font-mono), monospace; font-size: 0.82rem; color: var(--muted); }
+.bp-back:hover { color: var(--accent); }
+.bp-header { margin: 2rem 0 3rem; }
+.bp-title { font-family: var(--font-serif), serif; font-size: clamp(2rem, 5vw, 3rem); font-weight: 600; margin: 1.2rem 0 0.3rem; }
+.bp-tag { font-family: var(--font-mono), monospace; font-size: 0.8rem; color: var(--muted-2); }
+.bp-section { padding: 2.2rem 0; border-top: 1px solid var(--line); }
+.bp-h2 { font-family: var(--font-mono), monospace; font-size: 0.95rem; color: var(--accent); letter-spacing: 0.05em; margin-bottom: 0.8rem; }
+.bp-h3 { font-family: var(--font-mono), monospace; font-size: 0.78rem; text-transform: uppercase; letter-spacing: 0.08em; color: var(--muted-2); margin: 1.4rem 0 0.8rem; }
+.bp-p { color: var(--muted); max-width: 64ch; margin-bottom: 1.4rem; }
+.bp-cap { display: block; font-family: var(--font-mono), monospace; font-size: 0.72rem; color: var(--muted-2); margin-top: 0.7rem; }
+
+.bp-logo-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 1rem; }
+.bp-logo-cell { background: var(--surface); border: 1px solid var(--line); border-radius: var(--radius); padding: 1.6rem; display: flex; flex-direction: column; align-items: center; justify-content: center; text-align: center; min-height: 150px; }
+.bp-minsizes { display: flex; align-items: flex-end; gap: 1rem; }
+
+.bp-swatches { display: grid; grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); gap: 0.8rem; }
+.bp-swatch { }
+.bp-chip { height: 70px; border-radius: 10px; border: 1px solid var(--line); display: flex; align-items: flex-end; padding: 0.5rem; font-family: var(--font-mono), monospace; font-size: 0.74rem; }
+.bp-swatch-name { display: block; font-size: 0.8rem; color: var(--muted); margin-top: 0.4rem; }
+
+.bp-type > div { padding: 1rem 0; border-bottom: 1px dashed var(--line); }
+.bp-type > div:last-child { border-bottom: none; }
+.bp-type-spec { margin: 0; color: var(--text); }
+
+.bp-icons { display: grid; grid-template-columns: repeat(auto-fit, minmax(120px, 1fr)); gap: 0.8rem; }
+.bp-icon-cell { background: var(--surface); border: 1px solid var(--line); border-radius: var(--radius); padding: 1.4rem; display: flex; flex-direction: column; align-items: center; text-align: center; }
+.bp-icon { width: 36px; height: 36px; color: var(--accent); }
+
+.bp-patterns { display: grid; grid-template-columns: repeat(auto-fit, minmax(180px, 1fr)); gap: 0.8rem; }
+.bp-pat { height: 120px; border: 1px solid var(--line); border-radius: var(--radius); background-color: var(--surface); display: flex; align-items: center; justify-content: center; }
+.bp-pat span { font-family: var(--font-mono), monospace; font-size: 0.72rem; color: var(--text); background: color-mix(in srgb, var(--bg) 85%, transparent); padding: 0.25rem 0.6rem; border-radius: 6px; border: 1px solid var(--line); }
+
+.bp-rules { display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: 1rem; }
+.bp-rule { background: var(--surface); border: 1px solid var(--line); border-radius: var(--radius); padding: 1.4rem; }
+.bp-rule ul { margin: 0.6rem 0 0; padding-left: 1.1rem; color: var(--muted); font-size: 0.9rem; }
+.bp-rule li { margin-bottom: 0.4rem; }
+.bp-rule-h { font-family: var(--font-mono), monospace; font-size: 0.78rem; font-weight: 600; letter-spacing: 0.08em; }
+.bp-do { border-color: color-mix(in srgb, var(--chip-2) 50%, var(--line)); }
+.bp-do .bp-rule-h { color: var(--chip-2); }
+.bp-dont { border-color: color-mix(in srgb, var(--chip-1) 50%, var(--line)); }
+.bp-dont .bp-rule-h { color: var(--chip-1); }
+.bp-footer { margin-top: 2.5rem; padding-top: 1.5rem; border-top: 1px solid var(--line); font-family: var(--font-mono), monospace; font-size: 0.8rem; color: var(--muted-2); }
+
 @media (max-width: 640px) {
   .nav-links { display: none; }
   .hero-whisper { display: none; }
